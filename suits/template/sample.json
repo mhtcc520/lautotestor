@@ -1,0 +1,87 @@
+{
+
+    "name":"sample name",
+
+    "description":"sample description",
+
+    "ctors":[
+
+        {
+
+            "name":"ctor name",
+
+            "description":"ctor description", 
+
+            "path": "sample api path", 
+
+            "expect":{
+
+                "success":true
+
+            }, 
+
+            "body":{
+
+              "desc": "sample api parameters 1",
+              "name": "sample api parameters 2",
+
+            },
+
+            "teardown":{
+
+                "description":"ctor teardown description",
+
+                "path":"teardown api path",
+
+                "body":{
+
+                    "id":0,
+                }
+
+            }
+
+        }
+
+    ],
+
+    "steps":[
+
+        {
+
+            "name":"step name",
+
+            "description":"step description", 
+
+            "path": "sample api path", 
+
+            "expect":{
+
+                "success":true
+
+            }, 
+
+            "body":{
+
+              "desc": "sample api parameters 1",
+              "name": "sample api parameters 2",
+
+            },
+
+            "teardown":{
+
+                "description":"step teardown description",
+
+                "path":"teardown api path",
+
+                "body":{
+
+                    "id":0,
+                }
+
+            }
+
+        }
+
+    ]
+
+}
